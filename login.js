@@ -1,0 +1,1 @@
+document.getElementById('loginForm').addEventListener('submit',e=>{e.preventDefault();const u=username.value,p=password.value;if(u==='admin'&&p==='admin123'){location.href='dashboard.html';}else{error.textContent='Invalid username or password';}});
